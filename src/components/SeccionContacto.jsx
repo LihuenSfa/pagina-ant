@@ -1,9 +1,9 @@
-import imgCam from "../assets/repairCamera.jpg";
+import imgCam from "../assets/Graffiti-2.jpg";
 
 const SeccionContacto = () => {
     return (
-        <section className="w-screen h-screen overflow-hidden bg-zinc pt-16 flex flex-col justify-center">
-            <div className="flex justify-evenly items-center">
+        <section className="w-screen h-full overflow-hidden bg-zinc pt-20 flex flex-col justify-center mb-16">
+            <div className="flex justify-center items-center">
                 <div className="w-50% text-end p-[1rem]">
                     <div className="rounded">
                         <img src={imgCam} alt="" className="object-contain w-[100vh] rounded-3xl"/>

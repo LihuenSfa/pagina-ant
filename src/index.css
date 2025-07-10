@@ -120,6 +120,23 @@ canvas {
   animation: glitch 1s infinite reverse;
 }
 
+/* -------------------- animacion de flecha flotante -------------------- */
+.pulse {
+  animation: pulse 1500ms infinite;
+}
+
+@keyframes pulse {
+  0%{
+    box-shadow: #0D0D0D 0 0 0 0;
+  }
+  75%{
+    box-shadow: #0D0D0D00 0 0 0 16px;
+    transform: translateY(-12px);
+  }
+}
+
+
+
 /* -------------------- cartas de la sección proyectos -------------------- */
 
 .card__container {
