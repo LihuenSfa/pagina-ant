@@ -33,27 +33,27 @@ const Navbar = () => {
             <div className="px-4 sm:px-6 lg:px-8">
                 <div className="flex items-center justify-between h-16">
                     <div className="flex-shrink-0">
-                        <Link to="/pagina-ant/">
+                        <Link to="/">
                             <img src={iconImg} alt="Y T logo" className="h-10 w-auto fill-current"/>
                         </Link>
                     </div>
                     <div className="flex justify-center items-center gap-4 text-xl font-helvetica text-center ml-16">
-                        <Link to="/pagina-ant/Nosotros">
+                        <Link to="/Nosotros">
                             <p className="text-white hover:text-gray font-helvetica hover:underline">
                                 Nosotros
                             </p>
                         </Link>
-                        <Link to="/pagina-ant/Alquiler">
+                        <Link to="/Alquiler">
                             <p className="text-white hover:text-gray font-helvetica hover:underline">
                                 Alquiler
                             </p>
                         </Link>
                         <p className={`font-ducktape text-2xl text-yellow-10 font-bold ${isScrolled ? 'visible': 'hidden'} transition duration-500`}>Yellow Tapes</p>
-                        <Link to="/pagina-ant/Proyectos">
+                        <Link to="/Proyectos">
                             <p className="text-white hover:text-gray font-helvetica hover:underline">
                                 Proyectos
                             </p>
-                        </Link><Link to="/pagina-ant/Contacto">
+                        </Link><Link to="/Contacto">
                             <p className="text-white hover:text-gray font-helvetica hover:underline">
                                 Contacto
                             </p>

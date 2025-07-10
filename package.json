@@ -5,7 +5,7 @@
   "homepage": "https://yellowtapes.com",
   "type": "module",
   "scripts": {
-    "predeploy": "npm run build",
+    "predeploy": "npm run build && cp CNAME dist/ && cp dist/index.html dist/404.html",
     "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",

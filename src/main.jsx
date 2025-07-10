@@ -13,35 +13,35 @@ import Proyectos from './components/Proyectos.jsx'
 
 const router = createBrowserRouter([
   {
-    path: '/pagina-ant/',
+    path: '/',
     element: <App/>,
   },
   {
-        path:'/pagina-ant/ReproductorCaminos',
+        path:'ReproductorCaminos',
         element: <ReproductorCaminos/>
   },
   {
-        path:'/pagina-ant/ReproductorLove',
+        path:'ReproductorLove',
         element: <ReproductorLove/>
   },
   {
-        path:'/pagina-ant/ReproductorDocumental',
+        path:'ReproductorDocumental',
         element: <ReproductorDocumental/>
   },
   {
-        path:'/pagina-ant/Nosotros',
+        path:'Nosotros',
         element: <Nosotros/>
   },
   {
-        path:'/pagina-ant/Alquiler',
+        path:'Alquiler',
         element: <Alquiler/>
   },
   {
-      path:'/pagina-ant/Contacto',
+      path:'Contacto',
       element: <Contacto/>
   },
   {
-      path:'/pagina-ant/Proyectos',
+      path:'Proyectos',
       element: <Proyectos/>
   },
 ]);

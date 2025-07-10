@@ -18,16 +18,16 @@ const Footer = () => {
         <div>
           <h2 className="text-lg font-semibold text-gray-100">Enlaces rápidos</h2>
           <div className='flex gap-8 items-center pt-4'>
-            <Link to="/pagina-ant/Nosotros">
+            <Link to="/Nosotros">
               <p className="hover:text-yellow-500">Nosotros</p>
             </Link>
-            <Link to="/pagina-ant/Alquiler">
+            <Link to="/Alquiler">
               <p className="hover:text-yellow-500">Alquiler</p>
             </Link>
-            <Link to="/pagina-ant/Proyectos">
+            <Link to="/Proyectos">
               <p className="hover:text-yellow-500">Proyectos</p>
             </Link>
-            <Link to="/pagina-ant/Contacto">
+            <Link to="/Contacto">
               <p className="hover:text-yellow-500">Contacto</p>
             </Link>
             <p className='text-yellow-500 cursor-text select-text'>Anthony@yellowtapes.com</p>

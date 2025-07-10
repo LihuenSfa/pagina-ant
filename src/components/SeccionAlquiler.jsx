@@ -16,7 +16,7 @@ const SecccionAlquiler = () => {
                     <h1 className="pt-2 text-4xl text-yellow-10">Mir 37mm F2.8</h1>
                     <div className="pt-2 flex gap-8">
                         <div className="w-32 bg-yellow-100 text-zinc text-center rounded-3xl hover:bg-yellow-10">
-                            <Link to="/pagina-ant/Contacto">
+                            <Link to="/Contacto">
                                 <p className="text-xl">
                                     Cotizar
                                 </p>
@@ -29,7 +29,7 @@ const SecccionAlquiler = () => {
                     <h1 className="pt-2 text-4xl text-yellow-10">Sony Fx6</h1>
                     <div className="pt-2 flex gap-8">
                         <div className="w-32 bg-yellow-100 text-zinc text-center rounded-3xl hover:bg-yellow-10">
-                            <Link to="/pagina-ant/Contacto">
+                            <Link to="/Contacto">
                                 <p className="text-xl">
                                     Cotizar
                                 </p>
@@ -42,7 +42,7 @@ const SecccionAlquiler = () => {
                     <h1 className="pt-2 text-3xl text-yellow-10">MKE 600 Sennheiser</h1>
                     <div className="pt-2 flex gap-8">
                         <div className="w-32 bg-yellow-100 text-zinc text-center rounded-3xl hover:bg-yellow-10">
-                            <Link to="/pagina-ant/Contacto">
+                            <Link to="/Contacto">
                                 <p className="text-xl">
                                     Cotizar
                                 </p>
@@ -55,7 +55,7 @@ const SecccionAlquiler = () => {
                     <h1 className="pt-2 text-4xl text-yellow-10">Helios 58mm F2.0</h1>
                     <div className="pt-2 flex gap-8">
                         <div className="w-32 bg-yellow-100 text-zinc text-center rounded-3xl hover:bg-yellow-10">
-                            <Link to="/pagina-ant/Contacto">
+                            <Link to="/Contacto">
                                 <p className="text-xl">
                                     Cotizar
                                 </p>

@@ -39,7 +39,7 @@ const YTC1 = () => {
                         </h4>
                     </div>
                     <div className="w-32 border-2 border-solid border-yellow-100 text-center rounded-3xl hover:border-yellow-10 text-yellow-100 hover:text-yellow-10">
-                    <Link to="/pagina-ant/ReproductorDocumental">
+                    <Link to="/ReproductorDocumental">
                         <p className="fadein text-lg">
                             Mirar Teaser
                         </p>

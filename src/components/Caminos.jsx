@@ -42,7 +42,7 @@ const Caminos = () => {
                         </h4>
                     </div>
                     <div className="w-32 border-2 border-solid border-black text-center rounded-3xl hover:border-black text-[#fae846] hover:text-black bg-black hover:bg-[#fae846]">
-                        <Link className="fade" to="/pagina-ant/ReproductorCaminos">
+                        <Link className="fade" to="/ReproductorCaminos">
                             <p className="text-lg">
                                 Mirar Teaser
                             </p>
