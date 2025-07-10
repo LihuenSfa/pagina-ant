@@ -6,16 +6,9 @@ import { Link } from "react-router-dom";
 
 const SecccionAlquiler = () => {
     return (
-        <section className="w-screen h-full overflow-hidden bg-zinc flex flex-col gap-8">
-            <div className="text-right pt-16 pr-20">
-                <h1 className="text-2xl text-yellow-10 font-ducktape">------Alquiler</h1>
-            </div>
+        <section className="w-screen h-full overflow-hidden bg-zinc flex flex-col gap-8 pt-16">
             <div className="bg-yellow-10 text-zinc text-center font-nb px-16 py-2">
-                <h1 className="text-6xl">Precio y cantidad de dias de alquiler</h1>
-                <p className="text-2xl pt-4">
-                    Todos los datos relacionados al alquiler de alguno de los equipos debe ser
-                    consultado directamente por el numero de telefono o enviando un email
-                </p>
+                <h1 className="text-6xl">ALQUILER DE EQUIPOS CINEMATOGRÁFICOS</h1>
             </div>
             <div className="flex justify-evenly font-nb">
                 <div className="border-2 border-yellow-200 rounded-lg p-4 flex flex-col items-center">

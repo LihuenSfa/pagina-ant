@@ -48,7 +48,7 @@ const HeroComp = () => {
                         <p className='text-sm'>2024</p>
                     </button>
                 </div>
-                <button onClick={scrollDown} className='self-center rounded-full border-2 border-white px-[1rem] py-{1.5rem} hover:text-gray hover:border-gray'>
+                <button onClick={scrollDown} className='self-center rounded-full border-2 border-white px-[2rem] py-[0.5rem] hover:text-gray hover:border-gray pulse'>
                     <FontAwesomeIcon icon={faArrowDown}/>
                 </button>
             </div>

@@ -25,11 +25,11 @@ const YTC1 = () => {
         <section className="w-full bg-zinc overflow-hidden flex items-center px-8 py-16">
             <div className="md:flex gap-10 justify-center">
                 <div className="w-2/5 font-helvetica md:flex flex-col items-end justify-between">
-                    <div className="text-md">
+                    <div className="text-lg">
                         <h1 className="fadein text-5xl text-yellow-10">
                             Graffiti Tapes - Lima
                         </h1>
-                        <div className="fadein text-white">
+                        <div className="fadein text-white pb-4">
                             <p>año: 2025</p>  
                             <p>duración: 1h 10min</p>
                             <p>país: Perú, Lima</p>

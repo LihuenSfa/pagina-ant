@@ -28,16 +28,16 @@ const Caminos = () => {
                     <img src={imgUno} alt="Escena todos mis caminos" className="rounded-lg shadow-lg" />
                 </div>
                 <div className="w-2/5 font-helvetica md:flex flex-col justify-between gap-4">
-                    <div className="text-md">
+                    <div className="text-lg">
                         <h1 className="fade text-5xl text-black">
                             Todos mis caminos son la destrucción
                         </h1>
-                        <div className="fade text-zinc">
-                            <p>año: 2024</p>  
-                            <p>duración: 20min</p>
-                            <p>país: Perú, Lima</p>
+                        <div className="fade text-zinc pb-4">
+                            <p>Año: 2024</p>  
+                            <p>Duración: 20min</p>
+                            <p>País: Perú, Lima</p>
                         </div>
-                        <h4 className="fade text-lg text-zinc">
+                        <h4 className="fade text-zinc">
                             Anthony (22), un joven atrapado en los recuerdos con una chica, busca un escape consumiendo drogas y yendo a raves en el centro de Lima. En una de sus salidas nocturnas conoce a KDS (22), un personaje urbano que sobrevive en la calle. Juntos deambulan por la ciudad, construyendo una amistad hablando de grafitis, fumando y hasta robando una tienda. Entre estas experiencias, sus conversaciones los llevan a compartir sus conflictos románticos y a reflexionar sobre ellos. Con sus palabras y vivencias, KDS le hace ver a Anthony que, a pesar de los problemas, la vida sigue y que al final, todo es parte del camino.
                         </h4>
                     </div>
