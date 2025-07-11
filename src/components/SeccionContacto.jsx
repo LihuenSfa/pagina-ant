@@ -2,7 +2,7 @@ import imgCam from "../assets/Graffiti-2.jpg";
 
 const SeccionContacto = () => {
     return (
-        <section className="w-screen h-full overflow-hidden bg-zinc pt-20 flex flex-col justify-center mb-16">
+        <section className="w-screen h-full overflow-hidden bg-zinc pt-20 flex flex-col justify-center mb-18">
             <div className="flex justify-center items-center">
                 <div className="w-50% text-end p-[1rem]">
                     <div className="rounded">
