@@ -3,7 +3,8 @@
   <head>
     <meta http-equiv="refresh" content="0; url=/" />
     <script>
-      window.location.replace("/?" + window.location.pathname);
+      // Redirige a index.html y conserva la ruta original en la query
+      window.location.replace("/?" + window.location.pathname + window.location.search);
     </script>
   </head>
   <body></body>
