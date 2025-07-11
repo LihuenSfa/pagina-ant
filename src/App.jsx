@@ -13,9 +13,9 @@ const App = () => {
   const navigate = useNavigate();
 
   useEffect(() => {
-    const pathFrom404 = window.location.search.slice(1);
-    if (pathFrom404) {
-      navigate(pathFrom404);
+    const redirectedPath = window.location.search.slice(1);
+    if (redirectedPath) {
+      navigate(redirectedPath);
     }
   }, []);
 
