@@ -26,7 +26,6 @@ createRoot(document.getElementById('root')).render(
         <Route path="/Contacto" element={<Contacto />} />
         <Route path="/Proyectos" element={<Proyectos />} />
         {/* Ruta comodín por si escriben algo inexistente */}
-        <Route path="*" element={<App />} />
       </Routes>
     </HashRouter>
   </StrictMode>
