@@ -1,10 +1,9 @@
 import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
 import './index.css';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+
 import App from './App.jsx';
-
-import { HashRouter, Routes, Route } from 'react-router-dom';
-
 import ReproductorCaminos from './components/ReproductorCaminos.jsx';
 import ReproductorLove from './components/ReproductorLove.jsx';
 import ReproductorDocumental from './components/ReproductorDocumental.jsx';
@@ -15,7 +14,7 @@ import Proyectos from './components/Proyectos.jsx';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <HashRouter>
+    <BrowserRouter>
       <Routes>
         <Route path="/" element={<App />} />
         <Route path="/ReproductorCaminos" element={<ReproductorCaminos />} />
@@ -25,8 +24,7 @@ createRoot(document.getElementById('root')).render(
         <Route path="/Alquiler" element={<Alquiler />} />
         <Route path="/Contacto" element={<Contacto />} />
         <Route path="/Proyectos" element={<Proyectos />} />
-        {/* Ruta comodín por si escriben algo inexistente */}
       </Routes>
-    </HashRouter>
+    </BrowserRouter>
   </StrictMode>
 );
