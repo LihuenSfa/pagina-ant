@@ -7,17 +7,17 @@ import { faYoutube } from "@fortawesome/free-brands-svg-icons"
 const Footer = () => {
   return (
     <footer className="bg-zinc text-gray-300 py-4 border-t border-gray-700">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between gap-16">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col items-center lg:items-start lg:flex-row justify-between gap-4 lg:gap-16">
         <div>
-          <h1 className="text-yellow text-lg font-bold">Yellow Tapes Studios</h1>
+          <h1 className="text-yellow text-center lg:text-start text-lg font-bold">Yellow Tapes Studios</h1>
           <p className="mt-4 text-md">
             Productora de cine y documental underground.
           </p>
         </div>
 
         <div>
-          <h2 className="text-lg font-semibold text-gray-100">Enlaces rápidos</h2>
-          <div className='flex gap-8 items-center pt-4'>
+          <h2 className="text-lg text-center lg:text-start font-semibold text-gray-100">Enlaces rápidos</h2>
+          <div className='flex flex-col gap-4 md:flex-row md:gap-8 items-center pt-4'>
             <Link to="/Nosotros">
               <p className="hover:text-yellow-500">Nosotros</p>
             </Link>
@@ -37,7 +37,7 @@ const Footer = () => {
 
         <div>
           <h2 className="text-lg font-semibold text-gray-100">Sigue nuestro trabajo</h2>
-          <div className="mt-4 flex space-x-4">
+          <div className="mt-4 flex flex-col justify-center items-center lg:justify-start md:flex-row gap-4 text-3xl lg:text-base">
             <Link to= "https://www.instagram.com/yellow_tapes_/" target="_blank">
               <FontAwesomeIcon icon={ faInstagram } className="hover:text-gray"/>
             </Link>
@@ -51,7 +51,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="mt-8 border-t border-gray-700 pt-4 text-center text-sm flex items-center justify-between px-4 pr-8">
+      <div className="mt-8 border-t border-gray-700 pt-4 text-center text-sm flex flex-col lg:flex-row items-center justify-between px-4 pr-8 gap-4 lg:gap-0">
         <p>© 2024 Yellow Tapes Studios. Todos los derechos reservados.</p>
         <div className='flex gap-1'>
           <p>Desarrollado por</p>
