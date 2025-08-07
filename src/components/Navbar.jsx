@@ -34,10 +34,10 @@ const Navbar = () => {
                 <div className="flex items-center justify-between h-16">
                     <div className="flex-shrink-0">
                         <Link to="/">
-                            <img src={iconImg} alt="Y T logo" className="h-10 w-auto fill-current"/>
+                            <img src={iconImg} alt="Y T logo" className="h-8 md:h-10 w-auto fill-current"/>
                         </Link>
                     </div>
-                    <div className="flex justify-center items-center gap-4 text-xl font-helvetica text-center ml-16">
+                    <div className="flex justify-center items-center gap-4 text-sm md:text-lg lg:text-xl font-helvetica text-center lg:ml-16">
                         <Link to="/Nosotros">
                             <p className="text-white hover:text-gray font-helvetica hover:underline">
                                 Nosotros
@@ -48,7 +48,7 @@ const Navbar = () => {
                                 Alquiler
                             </p>
                         </Link>
-                        <p className={`font-ducktape text-2xl text-yellow-10 font-bold ${isScrolled ? 'visible': 'hidden'} transition duration-500`}>Yellow Tapes</p>
+                        <p className={`font-ducktape lg:text-2xl text-yellow-10 font-bold ${isScrolled ? 'visible': 'hidden'} transition duration-500`}>Yellow Tapes</p>
                         <Link to="/Proyectos">
                             <p className="text-white hover:text-gray font-helvetica hover:underline">
                                 Proyectos
@@ -63,13 +63,13 @@ const Navbar = () => {
                         {/* <FontAwesomeIcon icon={ faEnvelope } onClick={() => copyToClipboard()} className="hover:text-gray"/> */}
                         
                         <Link to= "https://www.instagram.com/yellow_tapes_/" target="_blank">
-                            <FontAwesomeIcon icon={ faInstagram } className="hover:text-gray h-[1.5rem]"/>
+                            <FontAwesomeIcon icon={ faInstagram } className="hover:text-gray md:h-[1.5rem]"/>
                         </Link>
                         <Link to="https://www.youtube.com/@YellowTapes_YT" target="_blank">
-                            <FontAwesomeIcon icon={ faYoutube } className="hover:text-gray h-[1.5rem]"/>
+                            <FontAwesomeIcon icon={ faYoutube } className="hover:text-gray md:h-[1.5rem]"/>
                         </Link>
                         <Link to="https://www.tiktok.com/@yellow.tapes" target="_blank">
-                            <FontAwesomeIcon icon={ faTiktok } className="hover:text-gray h-[1.5rem]"/>
+                            <FontAwesomeIcon icon={ faTiktok } className="hover:text-gray md:h-[1.5rem]"/>
                         </Link>
                         
                     </div>

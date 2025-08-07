@@ -192,6 +192,33 @@ canvas {
   margin-bottom: .25rem;
 }
 
+@media only screen and (max-width: 340px) {
+  .card__data {
+    width: 80%;
+    padding: 8px;
+  }
+  .card__desc {
+    font-size: smaller;
+    justify-content: center;
+  }
+  .card__title {
+    font-size: small;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 200px) {
+  .card__desc {
+    font-size: x-small;
+    justify-content: center;
+    text-align: center;
+  }
+  .card__title {
+    font-size: x-small;
+    text-align: center;
+  }
+}
+
 .card__article:hover .card__data{
   animation: show-data 1s forwards;
   opacity: 1;

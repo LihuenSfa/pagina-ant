@@ -5,8 +5,8 @@ const SeccionProyectos = () =>{
 
   return (
     <section className="h-full w-screen overflow-hidden bg-zinc common-padding">
-      <div className="w-[100%] h-[100%] flex flex-col justify-center text-white gap-10">
-        <div className='card__container'>
+      <div className="w-[100%] h-[100%] text-white gap-10">
+        <div className='card__container flex-wrap'>
             <article className="card__article">
               <img src={imgPH} alt="Imagen representando un frame de un proyecto" className="card__img"/>
               <div className="card__data">
@@ -39,8 +39,6 @@ const SeccionProyectos = () =>{
                 <Link></Link>
               </div>
             </article>
-          </div>
-          <div className='card__container'>
             <article className="card__article">
               <img src={imgPH} alt="Imagen representando un frame de un proyecto" className="card__img"/>
               <div className="card__data">
