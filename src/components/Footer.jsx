@@ -10,7 +10,7 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col items-center lg:items-start lg:flex-row justify-between gap-4 lg:gap-16">
         <div>
           <h1 className="text-yellow text-center lg:text-start text-lg font-bold">Yellow Tapes Studios</h1>
-          <p className="mt-4 text-md">
+          <p className="mt-4 text-md text-center lg:text-start">
             Productora de cine y documental underground.
           </p>
         </div>
@@ -37,7 +37,7 @@ const Footer = () => {
 
         <div>
           <h2 className="text-lg font-semibold text-gray-100">Sigue nuestro trabajo</h2>
-          <div className="mt-4 flex flex-col justify-center items-center lg:justify-start md:flex-row gap-4 text-3xl lg:text-base">
+          <div className="mt-4 flex justify-center items-center lg:justify-start md:flex-row gap-4 text-3xl lg:text-base">
             <Link to= "https://www.instagram.com/yellow_tapes_/" target="_blank">
               <FontAwesomeIcon icon={ faInstagram } className="hover:text-gray"/>
             </Link>
