@@ -23,11 +23,11 @@ const Navbar = () => {
 
   return (
      <header className="w-screen fixed top-0 left-0 z-20">
-      <nav className={`w-full transition duration-300 bg-zinc md:${isScrolled ? 'bg-zinc' : 'bg-transparent'} lg:bg-transparent lg:${isScrolled ? 'bg-zinc' : 'bg-transparent'}`}>
+      <nav className={`w-full transition duration-300 bg-zinc md:${isScrolled ? 'bg-zinc' : 'bg-transparent'} lg:${isScrolled ? 'bg-zinc' : 'bg-transparent'}`}>
         <div className="px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16">
             <Link to="/">
-              <img src={iconImg} alt="Y T logo" className="h-8 md:h-10 w-auto" />
+              <img src={iconImg} alt="Y T logo" className="h-8 md:h-10 w-auto mr-11" />
             </Link>
 
             <div className="hidden md:flex justify-center items-center gap-4 text-sm md:text-lg lg:text-xl font-helvetica">
