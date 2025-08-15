@@ -10,7 +10,7 @@ const Navbar = () => {
 
     useEffect(() => {
     const handleScroll = () => {
-      setIsScrolled(window.scrollY > 50);
+      setIsScrolled(window.scrollY > 20);
     };
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
@@ -23,7 +23,7 @@ const Navbar = () => {
 
   return (
      <header className="w-screen fixed top-0 left-0 z-20">
-      <nav className={`w-full transition duration-300 bg-zinc md:${isScrolled ? 'bg-zinc' : 'bg-transparent'} lg:${isScrolled ? 'bg-zinc' : 'bg-transparent'}`}>
+      <nav className={`w-full ${isScrolled ? "md:bg-zinc" : "md:bg-transparent"} bg-zinc md:bg-transparent transition duration-500`}>
         <div className="px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16">
             <Link to="/">
@@ -57,7 +57,7 @@ const Navbar = () => {
         </div>
 
         {isOpen && (
-          <div className="md:hidden bg-zinc-900 px-4 pb-4 space-y-4">
+          <div className="md:hidden bg-zinc px-4 pb-4 space-y-4">
             <Link to="/Nosotros" className="block text-white hover:text-gray">Nosotros</Link>
             <Link to="/Alquiler" className="block text-white hover:text-gray">Alquiler</Link>
             <Link to="/Proyectos" className="block text-white hover:text-gray">Proyectos</Link>

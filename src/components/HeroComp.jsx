@@ -26,16 +26,16 @@ const HeroComp = () => {
     }
 
     return (
-        <div className='relative h-screen w-full overflow-hidden bg-black'>
+        <div className='relative h-[100%] md:h-screen w-full pt-16 md:pt-0 overflow-hidden bg-black'>
             <video src={currentVideo} className='opacity-50 absolute inset-0 h-full w-full object-cover pointer-events-none'autoPlay muted loop controls disablePictureInPicture/> 
 
             {/* Contenido superpuesto */}
-            <div className="relative z-10 h-screen w-full flex flex-col px-16 pt-16 pb-4">
-                <div className='flex flex-col justify-around grow'>
-                    <h1 className="font-ducktape 2xl:text-7xl xl:text-6xl lg:text-5xl text-4xl font-bold text-yellow-10 text-center sm:text-end">
+            <div className="relative z-10 h-[100%] md:h-screen w-full flex flex-col px-0 md:px-16 pt-4 md:pt-16">
+                <div className='flex flex-col justify-around grow p-0'>
+                    <h1 className="font-ducktape text-5xl 2xl:text-7xl xl:text-6xl lg:text-5xl font-bold text-yellow-10 text-center sm:text-end mb-8 md:mb-0">
                         Yellow Tapes
                     </h1>
-                    <div className="flex flex-col items-center sm:items-start gap-4 font-helvetica 2xl:text-7xl xl:text-6xl lg:text-5xl text-3xl text-white">
+                    <div className="flex flex-col items-center sm:items-start gap-4 font-helvetica 2xl:text-7xl xl:text-6xl lg:text-5xl text-2xl text-white">
                         <button onMouseEnter={() => handleHover("heroVid3")} className="flex flex-col sm:flex-row sm:gap-2 transition hover:text-gray" >
                             Graffiti Tapes - Lima  
                             <p className='text-sm'>2025</p>
@@ -51,7 +51,7 @@ const HeroComp = () => {
                         </button>
                     </div>
                 </div>
-                <button onClick={scrollDown} className='self-center rounded-full border-2 border-white px-[2rem] py-[0.5rem] hover:text-gray hover:border-gray pulse'>
+                <button onClick={scrollDown} className='mt-12 md:mt-0 self-center rounded-full border-2 border-white px-[2rem] py-[0.5rem] hover:text-gray hover:border-gray pulse'>
                     <FontAwesomeIcon icon={faArrowDown}/>
                 </button>
             </div>

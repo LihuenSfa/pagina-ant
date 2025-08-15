@@ -22,7 +22,7 @@ const YTC1 = () => {
     })
 
   return (
-        <section className="w-full bg-zinc overflow-hidden flex items-center px-8 py-16">
+        <section className="w-full bg-zinc overflow-hidden flex items-center px-8 py-4 md:py-16">
             <div className="flex flex-col items-center lg:items-start text-center lg:text-start lg:flex-row gap-8 lg:justify-center">
                 <div className="fadein sm:w-[80%] md:w-[70%] lg:w-[50%] grow">
                     <img src={imgUno} alt="Escena todos mis caminos" className="rounded-lg shadow-lg" />
