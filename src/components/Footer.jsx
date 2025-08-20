@@ -15,9 +15,9 @@ const Footer = () => {
           </p>
         </div>
 
-        <div>
+        <div className='hidden md:inline'>
           <h2 className="text-lg text-center lg:text-start font-semibold text-gray-100">Enlaces rápidos</h2>
-          <div className='flex flex-wrap gap-4 md:flex-row md:gap-8 items-center justify-center pt-4'>
+          <div className='hidden md:flex flex-wrap gap-4 md:flex-row md:gap-8 items-center justify-center pt-4'>
             <Link to="/Nosotros">
               <p className="hover:text-yellow-500">Nosotros</p>
             </Link>
@@ -32,7 +32,6 @@ const Footer = () => {
             </Link>
             <p className='text-yellow-500 cursor-text select-text'>Anthony@yellowtapes.com</p>
           </div>
-          
         </div>
 
         <div>

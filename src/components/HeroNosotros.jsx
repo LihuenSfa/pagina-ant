@@ -18,7 +18,7 @@ const HeroNosotros = () => {
       <img src={policeImg} alt="" className='absolute inset-0 h-full w-full object-cover fondo'/> 
       {/* Contenido superpuesto */}
       <div className="relative z-10 flex py-16 md:py-0 md:h-full w-full flex-col items-center justify-center bg-black bg-opacity-50">
-        <div className="px-8 pt-16 md:h-full w-full flex flex-col justify-center">
+        <div className="px-8 pt-16 h-[65vh] md:h-full w-full flex flex-col justify-center">
           <h1 className="font-nb text-lg text-center text-white sm:text-xl md:text-2xl">
             Yellow Tapes es una productora underground nacida en Lima que busca crear una nueva ola en el cine peruano. 
             <br/> Nos movemos entre la ficción y el documental, captando historias reales que ocurren en todo rincón de la ciudad.
