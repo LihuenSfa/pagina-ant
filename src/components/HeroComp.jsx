@@ -26,8 +26,8 @@ const HeroComp = () => {
     }
 
     return (
-        <div className='relative h-[100%] md:h-screen w-full pt-16 md:pt-0 overflow-hidden bg-black'>
-            <video src={currentVideo} className='opacity-50 absolute inset-0 h-full w-full object-cover pointer-events-none'autoPlay muted loop controls disablePictureInPicture/> 
+        <div className='relative h-screen w-full pt-16 md:pt-0 overflow-hidden bg-black'>
+            <video src={currentVideo} className='opacity-50 absolute inset-0 h-full w-full object-cover pointer-events-none'autoPlay muted loop controls disablePictureInPicture preload='herovid3'/> 
 
             {/* Contenido superpuesto */}
             <div className="relative z-10 h-[100%] md:h-screen w-full flex flex-col px-0 md:px-16 pt-4 md:pt-16">
