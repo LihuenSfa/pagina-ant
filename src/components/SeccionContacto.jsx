@@ -7,9 +7,9 @@ const SeccionContacto = () => {
             <div className="relative z-10 flex pt-24 pb-16 md:pt-0 md:pb-0 md:h-full w-full flex-col items-center justify-center bg-black bg-opacity-50">
                 <h1 className="mb-6 text-4xl md:text-7xl ">Déjenos un mensaje</h1>
                 <form action="https://formsubmit.co/Anthony@yellowtapes.com" method="POST" target="_blank" className="lg:w-[40%]">
-                    <div className="flex flex-col gap-4 xl:flex-row justify-center xl:gap-4 py-4 lg:w-full">
-                        <div className="border-2 border-yellow bg-zinc rounded lg:w-full">
-                            <input type="text" name="name" required placeholder="Nombre completo" className="bg-zinc p-[1rem]"/>
+                    <div className="flex flex-col gap-4 xl:flex-row justify-center xl:gap-4 py-4 w-full">
+                        <div className="border-2 border-yellow bg-zinc rounded w-full">
+                            <input type="text" name="name" required placeholder="Nombre completo" className="bg-zinc p-[1rem] w-full"/>
                         </div>
                         <div className="border-2 border-yellow bg-none rounded lg:w-full">
                             <input type="email" name="email" required placeholder="Email" className="bg-zinc p-[1rem] w-full"/>
@@ -22,10 +22,9 @@ const SeccionContacto = () => {
                         <button type="submit" value="send" className="w-full xl:w-auto bg-yellow border-2 border-yellow text-zinc rounded-3xl px-[1.5rem] py-[0.7rem] font-bold hover:bg-zinc hover:text-yellow">ENVIAR</button>
                     </div>
                 </form>
-                <div className="border-t-2 p-4 mt-4 cursor-text select-text hidden lg:block w-[35%] text-center lg:text-lg">
-                    <p>Gerente general: Anthony Tymchuk</p>
-                    <p>Email: Anthony@yellowtapes.com</p>
-                    <p>Número telefónico: +51 945 298 882</p>
+                <div className="border-t-2 p-4 mt-4 cursor-text select-text lg:block w-[80%] md:w-[35%] text-center text-sm lg:text-lg">
+                    <p>Gerente General: Anthony Tymchuk</p>
+                    <p>email: anthony@yellowtapes.com</p>
                 </div>
             </div>
         </section>

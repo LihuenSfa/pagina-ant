@@ -32,7 +32,7 @@ const YTC1 = () => {
                         <h1 className="fadein text-5xl lg:text-4xl xl:text-5xl text-yellow-10">
                             Graffiti Tapes - Lima
                         </h1>
-                        <div className="fadein text-sm xl:text-lg font-bold flex flex-row justify-center lg:justify-start gap-4 xl:flex-col xl:gap-0 text-white">
+                        <div className="fadein text-sm text-sm xl:text-lg flex flex-row justify-center lg:justify-start gap-4 xl:flex-col xl:gap-0 text-white">
                             <p>año: 2025</p>  
                             <p>duración: 1h 10min</p>
                             <p>país: Perú, Lima</p>
@@ -51,7 +51,7 @@ const YTC1 = () => {
                             Una mirada cruda y sin filtros al circuito underground donde cada trazo es una declaración, un riesgo, una forma de existir al margen del sistema.
                         </h4>
                     </div>
-                    <div className="self-center lg:self-start w-32 border-2 border-solid border-yellow-100 text-center rounded-3xl hover:border-yellow-10 text-yellow-100 hover:text-yellow-10">
+                    <div className="self-center lg:self-start w-32 border-2 border-solid border-white text-center rounded-3xl hover:border-yellow text-white hover:text-yellow">
                     <Link to="/ReproductorDocumental">
                         <p className="fadein text-lg">
                             Mirar Teaser
