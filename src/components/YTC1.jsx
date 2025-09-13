@@ -32,10 +32,10 @@ const YTC1 = () => {
                         <h1 className="fadein text-5xl lg:text-4xl xl:text-5xl text-yellow-10">
                             Graffiti Tapes - Lima
                         </h1>
-                        <div className="fadein text-sm text-sm xl:text-lg flex flex-row justify-center lg:justify-start gap-4 xl:flex-col xl:gap-0 text-white">
-                            <p>año: 2025</p>  
-                            <p>duración: 1h 10min</p>
-                            <p>país: Perú, Lima</p>
+                        <div className="fade flex justify-center gap-4 text-sm xl:text-md md:justify-start text-white font-nb font-bold">
+                            <p className="border-2 border-solid border-white rounded-3xl px-2">Año: 2025</p>  
+                            <p className="border-2 border-solid border-white rounded-3xl px-2">Duración: 1h 10min</p>
+                            <p className="border-2 border-solid border-white rounded-3xl px-2">País: Perú, Lima</p>
                         </div>
                         <h4 className="fadein text-white hidden xl:contents">
                             Mientras Lima duerme, grafiteros pintan sus calles. 
