@@ -31,10 +31,10 @@ const Bridge = () => {
                         <h1 className="alpha text-5xl lg:text-4xl xl:text-5xl">
                             The I Love you Bridge
                         </h1>
-                        <div className="fade flex justify-center gap-4 text-sm xl:text-md md:justify-start text-zinc font-nb font-bold">
-                            <p className="border-2 border-solid border-black rounded-3xl px-2">Año: 2022</p>  
-                            <p className="border-2 border-solid border-black rounded-3xl px-2">Duración: 6min</p>
-                            <p className="border-2 border-solid border-black rounded-3xl px-2">País: Ucrania</p>
+                        <div className="fade flex justify-center gap-4 text-[10px] min-[448px]:text-sm xl:text-md md:justify-start text-zinc font-nb font-bold">
+                            <p className="border-2 border-solid border-black rounded-3xl px-1 min-[370px]:px-2">Año: 2022</p>  
+                            <p className="border-2 border-solid border-black rounded-3xl px-1 min-[370px]:px-2">Duración: 6min</p>
+                            <p className="border-2 border-solid border-black rounded-3xl px-1 min-[370px]:px-2">País: Ucrania</p>
                         </div>
                         <h4 className="alpha text-zinc hidden xl:contents">
                             Luego de que una pareja de adictos a la heroína sea testigo del suicidio de su amigo, discuten de quién es la culpa.
